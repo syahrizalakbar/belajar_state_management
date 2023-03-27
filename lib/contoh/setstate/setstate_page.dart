@@ -1,5 +1,5 @@
 import 'package:belajar_state_management/model/produk.dart';
-import 'package:belajar_state_management/pages/setstate/form_product.dart';
+import 'package:belajar_state_management/contoh/setstate/form_product.dart';
 import 'package:belajar_state_management/repository/product_repository.dart';
 import 'package:flutter/material.dart';
 

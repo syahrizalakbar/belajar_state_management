@@ -1,4 +1,4 @@
-import 'package:belajar_state_management/pages/setstate/setstate_page.dart';
+import 'package:belajar_state_management/contoh/setstate/setstate_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
