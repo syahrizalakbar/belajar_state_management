@@ -8,15 +8,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
-class FormProduct extends StatefulWidget {
+class FormProductPage extends StatefulWidget {
   final Produk? product;
-  const FormProduct({super.key, this.product});
+  const FormProductPage({super.key, this.product});
 
   @override
-  State<FormProduct> createState() => _FormProductState();
+  State<FormProductPage> createState() => _FormProductPageState();
 }
 
-class _FormProductState extends State<FormProduct> {
+class _FormProductPageState extends State<FormProductPage> {
   bool get isAddProduct => widget.product == null;
   TextEditingController nameController = TextEditingController();
   TextEditingController priceController = TextEditingController();
