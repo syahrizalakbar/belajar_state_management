@@ -1,4 +1,10 @@
 import 'package:belajar_state_management/contoh/setstate/product_page.dart';
+import 'package:belajar_state_management/contoh/bloc/product_page/product_page.dart'
+    as b;
+import 'package:belajar_state_management/contoh/cubit/product_page/product_page.dart'
+    as c;
+import 'package:belajar_state_management/contoh/provider/product_page/product_page.dart'
+    as p;
 import 'package:flutter/material.dart';
 
 void main() {
@@ -50,7 +56,12 @@ class _HomeState extends State<Home> {
             ),
             const SizedBox(height: 10),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: ((context) => const p.ProductPage())));
+              },
               child: const Text("Provider"),
             ),
             const SizedBox(height: 10),
@@ -59,13 +70,18 @@ class _HomeState extends State<Home> {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: ((context) => const ProductPage())));
+                        builder: ((context) => const b.ProductPage())));
               },
               child: const Text("BLoC"),
             ),
             const SizedBox(height: 10),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: ((context) => const c.ProductPage())));
+              },
               child: const Text("Cubit"),
             ),
           ],

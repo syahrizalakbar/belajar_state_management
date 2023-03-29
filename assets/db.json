@@ -1,23 +1,18 @@
 {
   "produk": [
     {
-      "nama": "MIE GORENG2",
-      "harga": "1400",
-      "id": 1
-    },
-    {
       "nama": "MINYAK GORENG",
-      "harga": "10000",
+      "harga": "20000",
       "id": 2
     },
     {
-      "nama": "ROTI",
-      "harga": "4000",
+      "nama": "TERIGU",
+      "harga": "5000",
       "id": 3
     },
     {
-      "nama": "KUE KERING",
-      "harga": "3000",
+      "nama": "TELUR",
+      "harga": "32000",
       "id": 4
     }
   ]
